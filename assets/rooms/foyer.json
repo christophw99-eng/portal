@@ -1,0 +1,1550 @@
+{
+ "interact": [
+  {
+   "id": "door_aula",
+   "label": "Zur Aula",
+   "pos": [
+    0.0,
+    1.2,
+    -3.95
+   ],
+   "view": {
+    "pos": [
+     0.0,
+     1.55,
+     -2.4
+    ],
+    "target": [
+     0.0,
+     1.3,
+     -4.0
+    ]
+   },
+   "kind": "door",
+   "locked": false,
+   "target": "aula",
+   "spawn": "door_foyer"
+  },
+  {
+   "id": "ausgang",
+   "label": "Ausgang",
+   "pos": [
+    0,
+    1.3,
+    4.0
+   ],
+   "view": {
+    "pos": [
+     0,
+     1.55,
+     2.4
+    ],
+    "target": [
+     0,
+     1.35,
+     4.0
+    ]
+   },
+   "kind": "info"
+  },
+  {
+   "id": "plaque",
+   "label": "Inschrift",
+   "pos": [
+    0,
+    2.85,
+    -4.0
+   ],
+   "view": {
+    "pos": [
+     0,
+     1.55,
+     -1.4
+    ],
+    "target": [
+     0,
+     2.85,
+     -4.0
+    ]
+   },
+   "kind": "info"
+  },
+  {
+   "id": "loge",
+   "label": "Hausmeisterloge",
+   "pos": [
+    -3.2,
+    1.3,
+    2.75
+   ],
+   "view": {
+    "pos": [
+     -1.7,
+     1.55,
+     2.75
+    ],
+    "target": [
+     -3.8,
+     1.3,
+     2.75
+    ]
+   },
+   "kind": "info"
+  },
+  {
+   "id": "toga",
+   "label": "Toga",
+   "pos": [
+    6.0,
+    1.3,
+    0.87
+   ],
+   "view": {
+    "pos": [
+     4.3,
+     1.55,
+     0.87
+    ],
+    "target": [
+     6.0,
+     1.25,
+     0.87
+    ]
+   },
+   "kind": "info"
+  },
+  {
+   "id": "vitrine",
+   "label": "Vitrine",
+   "pos": [
+    -4.0,
+    1.4,
+    -3.5
+   ],
+   "view": {
+    "pos": [
+     -4.0,
+     1.5,
+     -2.0
+    ],
+    "target": [
+     -4.0,
+     1.25,
+     -4.0
+    ]
+   },
+   "kind": "vitrine"
+  },
+  {
+   "id": "lageplan",
+   "label": "Lageplan",
+   "pos": [
+    3.6,
+    1.55,
+    -4.0
+   ],
+   "view": {
+    "pos": [
+     3.6,
+     1.55,
+     -2.5
+    ],
+    "target": [
+     3.6,
+     1.5,
+     -4.0
+    ]
+   },
+   "kind": "info"
+  },
+  {
+   "id": "plan",
+   "label": "Vertretungsplan",
+   "pos": [
+    2.9,
+    1.45,
+    -0.4
+   ],
+   "view": {
+    "pos": [
+     2.2433,
+     1.55,
+     0.8928
+    ],
+    "target": [
+     2.9,
+     1.42,
+     -0.4
+    ]
+   },
+   "kind": "plan"
+  },
+  {
+   "id": "aushang",
+   "label": "Schwarzes Brett",
+   "pos": [
+    -6.0,
+    1.5,
+    -1.5
+   ],
+   "view": {
+    "pos": [
+     -4.5,
+     1.55,
+     -1.5
+    ],
+    "target": [
+     -6.0,
+     1.45,
+     -1.5
+    ]
+   },
+   "kind": "info"
+  }
+ ],
+ "obstacles": [
+  [
+   -2.38,
+   -3.88,
+   -1.62,
+   -3.12
+  ],
+  [
+   1.62,
+   -3.88,
+   2.38,
+   -3.12
+  ],
+  [
+   -2.83,
+   3.12,
+   -2.07,
+   3.88
+  ],
+  [
+   2.07,
+   3.12,
+   2.83,
+   3.88
+  ],
+  [
+   -6.0,
+   1.34,
+   -3.0,
+   4.0
+  ],
+  [
+   5.58,
+   -0.6,
+   6.0,
+   2.6
+  ],
+  [
+   5.28,
+   -3.05,
+   6.0,
+   -1.35
+  ],
+  [
+   -5.4,
+   -4.0,
+   -2.6,
+   -3.5
+  ],
+  [
+   2.45,
+   -0.8,
+   3.35,
+   -0.0
+  ],
+  [
+   -6.0,
+   -2.45,
+   -5.45,
+   -0.55
+  ],
+  [
+   -6.0,
+   0.35,
+   -5.75,
+   0.75
+  ],
+  [
+   -5.8,
+   -3.8,
+   -5.1,
+   -3.1
+  ],
+  [
+   5.1,
+   -3.8,
+   5.8,
+   -3.1
+  ],
+  [
+   5.15,
+   3.15,
+   5.85,
+   3.85
+  ],
+  [
+   5.5,
+   -1.15,
+   6.0,
+   -0.75
+  ]
+ ],
+ "props": {
+  "vitrine": {
+   "slots": [
+    [
+     -3.1,
+     0.86,
+     -3.73
+    ],
+    [
+     -4.0,
+     0.86,
+     -3.73
+    ],
+    [
+     -4.9,
+     0.86,
+     -3.73
+    ],
+    [
+     -3.1,
+     1.49,
+     -3.73
+    ],
+    [
+     -4.0,
+     1.49,
+     -3.73
+    ],
+    [
+     -4.9,
+     1.49,
+     -3.73
+    ]
+   ],
+   "glass_a": [
+    -2.65,
+    0.85,
+    -3.51
+   ],
+   "glass_b": [
+    -5.35,
+    0.85,
+    -3.51
+   ],
+   "glass_h": 1.25
+  },
+  "plan_screen": {
+   "bl": [
+    2.3412,
+    1.09,
+    -0.5806
+   ],
+   "br": [
+    3.3754,
+    1.09,
+    -0.0553
+   ],
+   "tl": [
+    2.3412,
+    1.76,
+    -0.5806
+   ]
+  }
+ },
+ "windows": [
+  {
+   "a": [
+    1.8,
+    0.0,
+    4.176
+   ],
+   "b": [
+    -1.8,
+    0.0,
+    4.176
+   ],
+   "h": 2.75
+  },
+  {
+   "a": [
+    4.6,
+    0.9,
+    4.176
+   ],
+   "b": [
+    2.9,
+    0.9,
+    4.176
+   ],
+   "h": 1.85
+  },
+  {
+   "a": [
+    6.176,
+    0.9,
+    -3.2
+   ],
+   "b": [
+    6.176,
+    0.9,
+    -1.2
+   ],
+   "h": 1.85
+  },
+  {
+   "a": [
+    -3.4,
+    1.0,
+    3.55
+   ],
+   "b": [
+    -3.4,
+    1.0,
+    1.95
+   ],
+   "h": 1.2
+  }
+ ],
+ "backdrops": [
+  {
+   "center": [
+    0.0,
+    3.6936,
+    15.0
+   ],
+   "w": 30,
+   "h": 17.15,
+   "rotY": 3.141592653589793,
+   "tex": "view_s.jpg",
+   "gain": 1.0
+  },
+  {
+   "center": [
+    17.0,
+    3.6936,
+    -0.0
+   ],
+   "w": 30,
+   "h": 17.15,
+   "rotY": -1.5707963267948966,
+   "tex": "view_o.jpg",
+   "gain": 1.0
+  }
+ ],
+ "bounds": [
+  -6.0,
+  -4.0,
+  6.0,
+  4.0
+ ],
+ "start": {
+  "pos": [
+   0,
+   1.55,
+   2.5
+  ],
+  "yaw": 0.0
+ },
+ "lightmap": {
+  "file": "lm_foyer.jpg",
+  "scale": 3.44,
+  "p50": 0.6438
+ },
+ "materials": {
+  "alu": {
+   "tex": null,
+   "color": [
+    0.7,
+    0.72,
+    0.74
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "banner_salve": {
+   "tex": "banner_salve.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "book_0": {
+   "tex": null,
+   "color": [
+    0.55,
+    0.1,
+    0.08
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "book_1": {
+   "tex": null,
+   "color": [
+    0.1,
+    0.22,
+    0.45
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "book_2": {
+   "tex": null,
+   "color": [
+    0.12,
+    0.36,
+    0.2
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "book_3": {
+   "tex": null,
+   "color": [
+    0.82,
+    0.66,
+    0.2
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "book_4": {
+   "tex": null,
+   "color": [
+    0.92,
+    0.9,
+    0.84
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "book_5": {
+   "tex": null,
+   "color": [
+    0.3,
+    0.18,
+    0.12
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "book_6": {
+   "tex": null,
+   "color": [
+    0.2,
+    0.2,
+    0.22
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "book_7": {
+   "tex": null,
+   "color": [
+    0.62,
+    0.3,
+    0.1
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "book_8": {
+   "tex": null,
+   "color": [
+    0.42,
+    0.26,
+    0.5
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "book_9": {
+   "tex": null,
+   "color": [
+    0.15,
+    0.45,
+    0.55
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "ceiling_tiles": {
+   "tex": "ceiling.jpg",
+   "color": [
+    0.98,
+    0.97,
+    0.95
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "ceramic_dark": {
+   "tex": null,
+   "color": [
+    0.2,
+    0.26,
+    0.3
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "ceramic_white": {
+   "tex": null,
+   "color": [
+    0.9,
+    0.89,
+    0.86
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "chrome": {
+   "tex": null,
+   "color": [
+    0.75,
+    0.76,
+    0.78
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "clock_face": {
+   "tex": "clock.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "door_wood": {
+   "tex": "ph_oak.jpg",
+   "color": [
+    0.95,
+    0.88,
+    0.8
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "doormat": {
+   "tex": "doormat.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "E_led": {
+   "tex": null,
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": false,
+   "emit": true,
+   "emitColor": [
+    1.0,
+    0.93,
+    0.82
+   ],
+   "emitStrength": 6.0,
+   "double": false
+  },
+  "E_screen": {
+   "tex": null,
+   "color": [
+    0.05,
+    0.12,
+    0.25
+   ],
+   "unique": false,
+   "emit": true,
+   "emitColor": [
+    0.08,
+    0.18,
+    0.35
+   ],
+   "emitStrength": 1.0,
+   "double": false
+  },
+  "fabric_green": {
+   "tex": null,
+   "color": [
+    0.18,
+    0.34,
+    0.18
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "fabric_grey": {
+   "tex": null,
+   "color": [
+    0.34,
+    0.35,
+    0.37
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "fabric_navy": {
+   "tex": null,
+   "color": [
+    0.1,
+    0.14,
+    0.28
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "fabric_red": {
+   "tex": null,
+   "color": [
+    0.55,
+    0.1,
+    0.1
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "fabric_yellow": {
+   "tex": null,
+   "color": [
+    0.85,
+    0.62,
+    0.12
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "glass_dark": {
+   "tex": null,
+   "color": [
+    0.2,
+    0.24,
+    0.26
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "gold": {
+   "tex": null,
+   "color": [
+    0.86,
+    0.66,
+    0.26
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "keyboard": {
+   "tex": "keyboard.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "lageplan": {
+   "tex": "lageplan.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "leaf": {
+   "tex": null,
+   "color": [
+    0.16,
+    0.36,
+    0.12
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": true
+  },
+  "leaf_dark": {
+   "tex": null,
+   "color": [
+    0.1,
+    0.24,
+    0.1
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": true
+  },
+  "leaf_light": {
+   "tex": null,
+   "color": [
+    0.3,
+    0.5,
+    0.16
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": true
+  },
+  "leather": {
+   "tex": null,
+   "color": [
+    0.4,
+    0.24,
+    0.12
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "marble": {
+   "tex": "marble.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "note_loge": {
+   "tex": "note_loge.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "note_saeule": {
+   "tex": "note_saeule.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "oak": {
+   "tex": "ph_oak.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "oak_light": {
+   "tex": "ph_oak.jpg",
+   "color": [
+    1.08,
+    1.06,
+    1.02
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "paint_red": {
+   "tex": null,
+   "color": [
+    0.7,
+    0.08,
+    0.06
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "paint_white": {
+   "tex": null,
+   "color": [
+    0.92,
+    0.92,
+    0.9
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "pin_pin_foyer": {
+   "tex": "pin_foyer.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "plaster_warm": {
+   "tex": "ph_plaster.jpg",
+   "color": [
+    0.97,
+    0.94,
+    0.88
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "plaster_white": {
+   "tex": "ph_plaster.jpg",
+   "color": [
+    0.95,
+    0.95,
+    0.93
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "purple": {
+   "tex": null,
+   "color": [
+    0.36,
+    0.06,
+    0.22
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "radiator": {
+   "tex": null,
+   "color": [
+    0.93,
+    0.93,
+    0.91
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "radiator_front": {
+   "tex": "radiator.jpg",
+   "color": [
+    0.97,
+    0.97,
+    0.95
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "rubber_black": {
+   "tex": null,
+   "color": [
+    0.05,
+    0.05,
+    0.05
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "sign_aula": {
+   "tex": "sign_aula_door.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "sign_hausmeisterin": {
+   "tex": "sign_hausmeisterin.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "sign_museum": {
+   "tex": "sign_museum.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "sill_stone": {
+   "tex": "marble.jpg",
+   "color": [
+    0.88,
+    0.87,
+    0.85
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "soil": {
+   "tex": null,
+   "color": [
+    0.16,
+    0.11,
+    0.07
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "steel": {
+   "tex": null,
+   "color": [
+    0.56,
+    0.58,
+    0.61
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "steel_dark": {
+   "tex": null,
+   "color": [
+    0.17,
+    0.18,
+    0.2
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "terracotta": {
+   "tex": null,
+   "color": [
+    0.66,
+    0.34,
+    0.2
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "terrazzo": {
+   "tex": "ph_terrazzo.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "trunk": {
+   "tex": null,
+   "color": [
+    0.32,
+    0.24,
+    0.16
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "u_plaque_seneca": {
+   "tex": "plaque_seneca.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "u_sign_garderobe": {
+   "tex": "sign_garderobe.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "velvet_dark": {
+   "tex": "ph_velvet.jpg",
+   "color": [
+    0.42,
+    0.38,
+    0.42
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "wainscot": {
+   "tex": "ph_oak.jpg",
+   "color": [
+    0.9,
+    0.82,
+    0.72
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "window_frame": {
+   "tex": null,
+   "color": [
+    0.84,
+    0.85,
+    0.86
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "wool_white": {
+   "tex": null,
+   "color": [
+    0.88,
+    0.85,
+    0.76
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  }
+ }
+}

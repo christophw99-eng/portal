@@ -1,0 +1,1166 @@
+{
+ "interact": [
+  {
+   "id": "door_aula",
+   "label": "Zur Aula",
+   "pos": [
+    19.95,
+    1.2,
+    -0.0
+   ],
+   "view": {
+    "pos": [
+     18.4,
+     1.55,
+     -0.0
+    ],
+    "target": [
+     20.0,
+     1.3,
+     -0.0
+    ]
+   },
+   "kind": "door",
+   "locked": false,
+   "target": "aula",
+   "spawn": "door_sprachflur"
+  },
+  {
+   "id": "door_labor",
+   "label": "Formenlabor",
+   "pos": [
+    15.5,
+    1.2,
+    -1.45
+   ],
+   "view": {
+    "pos": [
+     15.5,
+     1.55,
+     0.1
+    ],
+    "target": [
+     15.5,
+     1.3,
+     -1.5
+    ]
+   },
+   "kind": "door",
+   "locked": false,
+   "target": "lab",
+   "spawn": "door_flur"
+  },
+  {
+   "id": "door_bib",
+   "label": "Bibliothek",
+   "pos": [
+    10.0,
+    1.2,
+    -1.45
+   ],
+   "view": {
+    "pos": [
+     10.0,
+     1.55,
+     0.1
+    ],
+    "target": [
+     10.0,
+     1.3,
+     -1.5
+    ]
+   },
+   "kind": "door",
+   "locked": true,
+   "target": null,
+   "spawn": null
+  },
+  {
+   "id": "door_werk",
+   "label": "Satzbaustelle",
+   "pos": [
+    4.5,
+    1.2,
+    -1.45
+   ],
+   "view": {
+    "pos": [
+     4.5,
+     1.55,
+     0.1
+    ],
+    "target": [
+     4.5,
+     1.3,
+     -1.5
+    ]
+   },
+   "kind": "door",
+   "locked": false,
+   "target": "werk",
+   "spawn": "door_flur"
+  },
+  {
+   "id": "brett",
+   "label": "Schwarzes Brett",
+   "pos": [
+    12.75,
+    1.5,
+    -1.5
+   ],
+   "view": {
+    "pos": [
+     12.75,
+     1.55,
+     -0.0
+    ],
+    "target": [
+     12.75,
+     1.5,
+     -1.5
+    ]
+   },
+   "kind": "info"
+  }
+ ],
+ "obstacles": [
+  [
+   0.1,
+   0.6,
+   1.0,
+   1.4
+  ],
+  [
+   0.1,
+   -1.5,
+   1.0,
+   -0.6
+  ],
+  [
+   19.5,
+   0.95,
+   19.9,
+   1.45
+  ],
+  [
+   16.4,
+   -1.5,
+   19.2,
+   -1.03
+  ],
+  [
+   16.98,
+   -1.05,
+   17.42,
+   -0.7
+  ],
+  [
+   18.18,
+   -1.05,
+   18.62,
+   -0.7
+  ],
+  [
+   6.45,
+   0.65,
+   8.15,
+   1.5
+  ],
+  [
+   11.85,
+   0.65,
+   13.55,
+   1.5
+  ],
+  [
+   1.75,
+   1.3,
+   3.45,
+   1.5
+  ],
+  [
+   16.45,
+   1.3,
+   18.15,
+   1.5
+  ]
+ ],
+ "props": {},
+ "windows": [
+  {
+   "a": [
+    -0.165,
+    0.9,
+    0.9
+   ],
+   "b": [
+    -0.165,
+    0.9,
+    -0.9
+   ],
+   "h": 1.8000000000000003
+  },
+  {
+   "a": [
+    3.55,
+    0.95,
+    1.665
+   ],
+   "b": [
+    1.65,
+    0.95,
+    1.665
+   ],
+   "h": 1.7500000000000002
+  },
+  {
+   "a": [
+    8.25,
+    0.95,
+    1.665
+   ],
+   "b": [
+    6.35,
+    0.95,
+    1.665
+   ],
+   "h": 1.7500000000000002
+  },
+  {
+   "a": [
+    13.65,
+    0.95,
+    1.665
+   ],
+   "b": [
+    11.75,
+    0.95,
+    1.665
+   ],
+   "h": 1.7500000000000002
+  },
+  {
+   "a": [
+    18.25,
+    0.95,
+    1.665
+   ],
+   "b": [
+    16.35,
+    0.95,
+    1.665
+   ],
+   "h": 1.7500000000000002
+  },
+  {
+   "a": [
+    8.12,
+    1.28,
+    -1.205
+   ],
+   "b": [
+    6.38,
+    1.28,
+    -1.205
+   ],
+   "h": 0.94
+  }
+ ],
+ "backdrops": [
+  {
+   "center": [
+    10.0,
+    3.9794,
+    10.5
+   ],
+   "w": 34,
+   "h": 19.43,
+   "rotY": 3.141592653589793,
+   "tex": "view_s.jpg",
+   "gain": 1.0
+  },
+  {
+   "center": [
+    -9.0,
+    3.2648,
+    -0.0
+   ],
+   "w": 24,
+   "h": 13.72,
+   "rotY": 1.5707963267948966,
+   "tex": "view_w.jpg",
+   "gain": 1.0
+  }
+ ],
+ "bounds": [
+  0.0,
+  -1.5,
+  20.0,
+  1.5
+ ],
+ "start": {
+  "pos": [
+   18.4,
+   1.55,
+   0
+  ],
+  "yaw": 1.5707963267948966
+ },
+ "lightmap": {
+  "file": "lm_flur_sprache.jpg",
+  "scale": 2.98,
+  "p50": 0.8924
+ },
+ "materials": {
+  "alu": {
+   "tex": null,
+   "color": [
+    0.7,
+    0.72,
+    0.74
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "book_0": {
+   "tex": null,
+   "color": [
+    0.55,
+    0.1,
+    0.08
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "book_1": {
+   "tex": null,
+   "color": [
+    0.1,
+    0.22,
+    0.45
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "book_2": {
+   "tex": null,
+   "color": [
+    0.12,
+    0.36,
+    0.2
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "book_3": {
+   "tex": null,
+   "color": [
+    0.82,
+    0.66,
+    0.2
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "book_4": {
+   "tex": null,
+   "color": [
+    0.92,
+    0.9,
+    0.84
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "book_5": {
+   "tex": null,
+   "color": [
+    0.3,
+    0.18,
+    0.12
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "book_6": {
+   "tex": null,
+   "color": [
+    0.2,
+    0.2,
+    0.22
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "book_7": {
+   "tex": null,
+   "color": [
+    0.62,
+    0.3,
+    0.1
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "book_8": {
+   "tex": null,
+   "color": [
+    0.42,
+    0.26,
+    0.5
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "book_9": {
+   "tex": null,
+   "color": [
+    0.15,
+    0.45,
+    0.55
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "ceiling_tiles": {
+   "tex": "ceiling.jpg",
+   "color": [
+    0.98,
+    0.97,
+    0.95
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "ceramic_white": {
+   "tex": null,
+   "color": [
+    0.9,
+    0.89,
+    0.86
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "chrome": {
+   "tex": null,
+   "color": [
+    0.75,
+    0.76,
+    0.78
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "clock_face": {
+   "tex": "clock.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "door_wood": {
+   "tex": "ph_oak.jpg",
+   "color": [
+    0.95,
+    0.88,
+    0.8
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "E_led": {
+   "tex": null,
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": false,
+   "emit": true,
+   "emitColor": [
+    1.0,
+    0.93,
+    0.82
+   ],
+   "emitStrength": 6.0,
+   "double": false
+  },
+  "fabric_red": {
+   "tex": null,
+   "color": [
+    0.55,
+    0.1,
+    0.1
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "fabric_teal": {
+   "tex": null,
+   "color": [
+    0.08,
+    0.38,
+    0.4
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "frame_blue": {
+   "tex": null,
+   "color": [
+    0.16,
+    0.32,
+    0.62
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "glass_clear": {
+   "tex": null,
+   "color": [
+    0.78,
+    0.84,
+    0.86
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "leaf": {
+   "tex": null,
+   "color": [
+    0.16,
+    0.36,
+    0.12
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": true
+  },
+  "leaf_dark": {
+   "tex": null,
+   "color": [
+    0.1,
+    0.24,
+    0.1
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": true
+  },
+  "leaf_light": {
+   "tex": null,
+   "color": [
+    0.3,
+    0.5,
+    0.16
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": true
+  },
+  "lino_blue": {
+   "tex": "ph_lino.jpg",
+   "color": [
+    0.78,
+    0.84,
+    0.92
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "locker_front": {
+   "tex": "lockers.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "locker_side": {
+   "tex": null,
+   "color": [
+    0.3,
+    0.4,
+    0.5
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "note_bib": {
+   "tex": "note_bib.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "note_werk": {
+   "tex": "note_werk.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "oak": {
+   "tex": "ph_oak.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "paint_red": {
+   "tex": null,
+   "color": [
+    0.7,
+    0.08,
+    0.06
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "paint_white": {
+   "tex": null,
+   "color": [
+    0.92,
+    0.92,
+    0.9
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "pin_pin_sprache": {
+   "tex": "pin_sprache.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "plaster_white": {
+   "tex": "ph_plaster.jpg",
+   "color": [
+    0.95,
+    0.95,
+    0.93
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "radiator": {
+   "tex": null,
+   "color": [
+    0.93,
+    0.93,
+    0.91
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "radiator_front": {
+   "tex": "radiator.jpg",
+   "color": [
+    0.97,
+    0.97,
+    0.95
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "rubber_black": {
+   "tex": null,
+   "color": [
+    0.05,
+    0.05,
+    0.05
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "sign_aula": {
+   "tex": "sign_zur_aula.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "sign_bib": {
+   "tex": "sign_bibliothek.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "sign_labor": {
+   "tex": "sign_labor.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "sign_werk": {
+   "tex": "sign_werkraum.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "sill_stone": {
+   "tex": "marble.jpg",
+   "color": [
+    0.88,
+    0.87,
+    0.85
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "soil": {
+   "tex": null,
+   "color": [
+    0.16,
+    0.11,
+    0.07
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "steel_dark": {
+   "tex": null,
+   "color": [
+    0.17,
+    0.18,
+    0.2
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "terracotta": {
+   "tex": null,
+   "color": [
+    0.66,
+    0.34,
+    0.2
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "trunk": {
+   "tex": null,
+   "color": [
+    0.32,
+    0.24,
+    0.16
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "u_sign_notausgang": {
+   "tex": "sign_notausgang.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "velvet_dark": {
+   "tex": "ph_velvet.jpg",
+   "color": [
+    0.42,
+    0.38,
+    0.42
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "wall_blue": {
+   "tex": "ph_plaster.jpg",
+   "color": [
+    0.62,
+    0.74,
+    0.9
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "window_frame": {
+   "tex": null,
+   "color": [
+    0.84,
+    0.85,
+    0.86
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  }
+ }
+}

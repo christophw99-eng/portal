@@ -1,0 +1,1188 @@
+{
+ "interact": [
+  {
+   "id": "door_aula",
+   "label": "Zur Aula",
+   "pos": [
+    0.05,
+    1.2,
+    -0.0
+   ],
+   "view": {
+    "pos": [
+     1.6,
+     1.55,
+     -0.0
+    ],
+    "target": [
+     0.0,
+     1.3,
+     -0.0
+    ]
+   },
+   "kind": "door",
+   "locked": false,
+   "target": "aula",
+   "spawn": "door_geschichtsflur"
+  },
+  {
+   "id": "door_geschichte",
+   "label": "Geschichte",
+   "pos": [
+    4.5,
+    1.2,
+    -1.45
+   ],
+   "view": {
+    "pos": [
+     4.5,
+     1.55,
+     0.1
+    ],
+    "target": [
+     4.5,
+     1.3,
+     -1.5
+    ]
+   },
+   "kind": "door",
+   "locked": true,
+   "target": null,
+   "spawn": null
+  },
+  {
+   "id": "door_karten",
+   "label": "Kartenraum",
+   "pos": [
+    12.5,
+    1.2,
+    -1.45
+   ],
+   "view": {
+    "pos": [
+     12.5,
+     1.55,
+     0.1
+    ],
+    "target": [
+     12.5,
+     1.3,
+     -1.5
+    ]
+   },
+   "kind": "door",
+   "locked": true,
+   "target": null,
+   "spawn": null
+  },
+  {
+   "id": "zeit0",
+   "label": "Zeitleiste",
+   "pos": [
+    16.6,
+    1.65,
+    1.5
+   ],
+   "view": {
+    "pos": [
+     16.6,
+     1.55,
+     -0.0
+    ],
+    "target": [
+     16.6,
+     1.65,
+     1.5
+    ]
+   },
+   "kind": "info"
+  },
+  {
+   "id": "zeit1",
+   "label": "Zeitleiste",
+   "pos": [
+    13.8,
+    1.65,
+    1.5
+   ],
+   "view": {
+    "pos": [
+     13.8,
+     1.55,
+     -0.0
+    ],
+    "target": [
+     13.8,
+     1.65,
+     1.5
+    ]
+   },
+   "kind": "info"
+  },
+  {
+   "id": "zeit2",
+   "label": "Zeitleiste",
+   "pos": [
+    11.0,
+    1.65,
+    1.5
+   ],
+   "view": {
+    "pos": [
+     11.0,
+     1.55,
+     -0.0
+    ],
+    "target": [
+     11.0,
+     1.65,
+     1.5
+    ]
+   },
+   "kind": "info"
+  },
+  {
+   "id": "zeit3",
+   "label": "Zeitleiste",
+   "pos": [
+    8.2,
+    1.65,
+    1.5
+   ],
+   "view": {
+    "pos": [
+     8.2,
+     1.55,
+     -0.0
+    ],
+    "target": [
+     8.2,
+     1.65,
+     1.5
+    ]
+   },
+   "kind": "info"
+  },
+  {
+   "id": "zeit4",
+   "label": "Zeitleiste",
+   "pos": [
+    5.4,
+    1.65,
+    1.5
+   ],
+   "view": {
+    "pos": [
+     5.4,
+     1.55,
+     -0.0
+    ],
+    "target": [
+     5.4,
+     1.65,
+     1.5
+    ]
+   },
+   "kind": "info"
+  },
+  {
+   "id": "karte",
+   "label": "Landkarte",
+   "pos": [
+    8.4,
+    2.0,
+    -1.5
+   ],
+   "view": {
+    "pos": [
+     8.4,
+     1.55,
+     0.2
+    ],
+    "target": [
+     8.4,
+     1.95,
+     -1.5
+    ]
+   },
+   "kind": "info"
+  }
+ ],
+ "obstacles": [
+  [
+   19.0,
+   0.6,
+   19.9,
+   1.4
+  ],
+  [
+   19.0,
+   -1.5,
+   19.9,
+   -0.6
+  ],
+  [
+   0.1,
+   0.95,
+   0.5,
+   1.45
+  ],
+  [
+   0.4,
+   1.03,
+   2.0,
+   1.5
+  ],
+  [
+   1.0,
+   -1.5,
+   2.2,
+   -1.05
+  ],
+  [
+   2.15,
+   0.65,
+   3.85,
+   1.5
+  ]
+ ],
+ "props": {},
+ "windows": [
+  {
+   "a": [
+    20.165,
+    0.9,
+    -0.9
+   ],
+   "b": [
+    20.165,
+    0.9,
+    0.9
+   ],
+   "h": 1.8000000000000003
+  },
+  {
+   "a": [
+    3.95,
+    0.95,
+    1.665
+   ],
+   "b": [
+    2.05,
+    0.95,
+    1.665
+   ],
+   "h": 1.7500000000000002
+  },
+  {
+   "a": [
+    16.87,
+    1.28,
+    -1.205
+   ],
+   "b": [
+    15.13,
+    1.28,
+    -1.205
+   ],
+   "h": 0.94
+  }
+ ],
+ "backdrops": [
+  {
+   "center": [
+    10.0,
+    3.9794,
+    10.5
+   ],
+   "w": 34,
+   "h": 19.43,
+   "rotY": 3.141592653589793,
+   "tex": "view_s.jpg",
+   "gain": 1.0
+  },
+  {
+   "center": [
+    29.0,
+    3.2648,
+    -0.0
+   ],
+   "w": 24,
+   "h": 13.72,
+   "rotY": -1.5707963267948966,
+   "tex": "view_o.jpg",
+   "gain": 1.0
+  }
+ ],
+ "bounds": [
+  0.0,
+  -1.5,
+  20.0,
+  1.5
+ ],
+ "start": {
+  "pos": [
+   1.6,
+   1.55,
+   0
+  ],
+  "yaw": -1.5707963267948966
+ },
+ "lightmap": {
+  "file": "lm_flur_geschichte.jpg",
+  "scale": 13.79,
+  "p50": 0.9142
+ },
+ "materials": {
+  "book_0": {
+   "tex": null,
+   "color": [
+    0.55,
+    0.1,
+    0.08
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "book_1": {
+   "tex": null,
+   "color": [
+    0.1,
+    0.22,
+    0.45
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "book_2": {
+   "tex": null,
+   "color": [
+    0.12,
+    0.36,
+    0.2
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "book_3": {
+   "tex": null,
+   "color": [
+    0.82,
+    0.66,
+    0.2
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "book_4": {
+   "tex": null,
+   "color": [
+    0.92,
+    0.9,
+    0.84
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "ceiling_tiles": {
+   "tex": "ceiling.jpg",
+   "color": [
+    0.98,
+    0.97,
+    0.95
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "ceramic_white": {
+   "tex": null,
+   "color": [
+    0.9,
+    0.89,
+    0.86
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "chrome": {
+   "tex": null,
+   "color": [
+    0.75,
+    0.76,
+    0.78
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "clock_face": {
+   "tex": "clock.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "darkwood": {
+   "tex": "ph_darkwood.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "door_wood": {
+   "tex": "ph_oak.jpg",
+   "color": [
+    0.95,
+    0.88,
+    0.8
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "E_led": {
+   "tex": null,
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": false,
+   "emit": true,
+   "emitColor": [
+    1.0,
+    0.93,
+    0.82
+   ],
+   "emitStrength": 6.0,
+   "double": false
+  },
+  "frame_red": {
+   "tex": null,
+   "color": [
+    0.62,
+    0.16,
+    0.14
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "glass_clear": {
+   "tex": null,
+   "color": [
+    0.78,
+    0.84,
+    0.86
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "globe": {
+   "tex": "globe.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "gold": {
+   "tex": null,
+   "color": [
+    0.86,
+    0.66,
+    0.26
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "leaf": {
+   "tex": null,
+   "color": [
+    0.16,
+    0.36,
+    0.12
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": true
+  },
+  "leaf_dark": {
+   "tex": null,
+   "color": [
+    0.1,
+    0.24,
+    0.1
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": true
+  },
+  "leaf_light": {
+   "tex": null,
+   "color": [
+    0.3,
+    0.5,
+    0.16
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": true
+  },
+  "lino_warm": {
+   "tex": "ph_lino.jpg",
+   "color": [
+    0.94,
+    0.84,
+    0.76
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "locker_front": {
+   "tex": "lockers.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "locker_side": {
+   "tex": null,
+   "color": [
+    0.3,
+    0.4,
+    0.5
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "map_map_imperium": {
+   "tex": "map_imperium.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "note_geschichte": {
+   "tex": "note_portal.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "note_karten": {
+   "tex": "note_karten.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "oak": {
+   "tex": "ph_oak.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "paint_red": {
+   "tex": null,
+   "color": [
+    0.7,
+    0.08,
+    0.06
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "paint_white": {
+   "tex": null,
+   "color": [
+    0.92,
+    0.92,
+    0.9
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "plaster_white": {
+   "tex": "ph_plaster.jpg",
+   "color": [
+    0.95,
+    0.95,
+    0.93
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "radiator": {
+   "tex": null,
+   "color": [
+    0.93,
+    0.93,
+    0.91
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "radiator_front": {
+   "tex": "radiator.jpg",
+   "color": [
+    0.97,
+    0.97,
+    0.95
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "rubber_black": {
+   "tex": null,
+   "color": [
+    0.05,
+    0.05,
+    0.05
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "sign_aula": {
+   "tex": "sign_zur_aula.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "sign_geschichte": {
+   "tex": "sign_geschichte.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "sign_karten": {
+   "tex": "sign_kartenraum.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "sill_stone": {
+   "tex": "marble.jpg",
+   "color": [
+    0.88,
+    0.87,
+    0.85
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "soil": {
+   "tex": null,
+   "color": [
+    0.16,
+    0.11,
+    0.07
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "steel_dark": {
+   "tex": null,
+   "color": [
+    0.17,
+    0.18,
+    0.2
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "terracotta": {
+   "tex": null,
+   "color": [
+    0.66,
+    0.34,
+    0.2
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "tl_band": {
+   "tex": "tl_band.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "tl_slot_0": {
+   "tex": "tl_slot_0.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "tl_slot_1": {
+   "tex": "tl_slot_1.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "tl_slot_2": {
+   "tex": "tl_slot_2.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "tl_slot_3": {
+   "tex": "tl_slot_3.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "tl_slot_4": {
+   "tex": "tl_slot_4.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "trunk": {
+   "tex": null,
+   "color": [
+    0.32,
+    0.24,
+    0.16
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "u_sign_notausgang": {
+   "tex": "sign_notausgang.jpg",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "unique": true,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "velvet_dark": {
+   "tex": "ph_velvet.jpg",
+   "color": [
+    0.42,
+    0.38,
+    0.42
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "wall_red": {
+   "tex": "ph_plaster.jpg",
+   "color": [
+    0.92,
+    0.68,
+    0.62
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  },
+  "window_frame": {
+   "tex": null,
+   "color": [
+    0.84,
+    0.85,
+    0.86
+   ],
+   "unique": false,
+   "emit": false,
+   "emitColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emitStrength": 0.0,
+   "double": false
+  }
+ }
+}
